@@ -3,7 +3,7 @@ import streamlit as st
 
 st.set_page_config(page_title="Survey of Conusmer Finances",layout="wide",initial_sidebar_state="expanded")
 
-st.title("Analysis of Survey of Consumer Finances 2019 and 2022 Data")
+st.title("Analysis of Survey of Consumer Finances 2022 Data")
 
 
 

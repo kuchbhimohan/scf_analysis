@@ -4,7 +4,8 @@ import streamlit as st
 st.set_page_config(page_title="Survey of Conusmer Finances 2022",layout="wide",initial_sidebar_state="expanded")
 st.title("Analysis of Survey of Consumer Finances 2022 Data")
 
-st.write("### This data was collected from {https://www.federalreserve.gov/econres/scfindex.htm}")
+url_fed_reserve = "https://www.federalreserve.gov/econres/scfindex.htm"
+st.write(f"### This data was collected from {url_fed_reserve}")
 
 import pandas as pd
 import plotly.express as px
